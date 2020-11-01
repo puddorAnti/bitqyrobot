@@ -1,0 +1,40 @@
+
+eureka:
+  instance:
+    prefer-ip-address: true
+server:
+  context-path: /ernormal
+  port: 20000
+spark:
+  system:
+    admin-phones: 18600000000
+    admins: xxxxxx@qq.com
+    data-center-id: 1
+    host: smtp.126.com
+    name: BIZZAN
+    work-id: 1
+spring:
+  application:
+    name: Robot-Trade-NORMAL
+  freemarker:
+    cache: false
+    template-loader-path: classpath:/templates
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      indent_output: true
+    time-zone: GMT+8
+  mail:
+    host: smtp.126.com
+    password: bizzan123456
+    port: 465
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          starttls:
+            enable: true
+            required: true
+    username: bizzan@126.com

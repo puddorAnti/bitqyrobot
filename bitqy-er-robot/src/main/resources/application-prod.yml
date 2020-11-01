@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.31.0.99:7000/eureka/
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://172.31.0.99:27017/robot
+
+domain: api.bitqy.co
